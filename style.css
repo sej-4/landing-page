@@ -111,3 +111,32 @@ h2 {
 .card p {
   color: gray;
 }
+
+/* Quote styling */
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 60px 0 50px;
+}
+
+.quote .container {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  gap: 10px;
+}
+
+.quote .text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: 900;
+}
