@@ -49,12 +49,12 @@ a {
   text-decoration: none;
 }
 
-.hero-space {
+.hero-content {
   display: flex;
   gap: 30px;
 }
 
-.hero .text {
+.hero-content div {
   flex: 1;
 }
 
@@ -64,7 +64,7 @@ h1 {
   font-weight: 900;
 }
 
-.hero button {
+.hero-content button {
   border: none;
   background-color: #3882f6;
   padding: 5px 20px;
@@ -74,7 +74,7 @@ h1 {
   font-weight: 800;
 }
 
-.hero .image {
+.hero-content .image {
   flex: 1;
   background-color: gray;
   display: flex;
@@ -135,13 +135,13 @@ h2 {
   gap: 10px;
 }
 
-.quote .text {
+em {
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
 }
 
-.author {
+.quote p {
   align-self: flex-end;
   font-weight: 900;
 }
@@ -164,7 +164,7 @@ h2 {
   gap: 100px;
 }
 
-.call-to-action .text p:first-child {
+.call-to-action p:first-child {
   font-size: 18px;
   font-weight: 900;
   color: #f9faf8;
