@@ -9,7 +9,6 @@ body {
 }
 
 /* Hero styling */
-
 .hero {
   background-color: #1f2937;
   padding: 10px 10% 100px;
@@ -139,4 +138,37 @@ h2 {
 .author {
   align-self: flex-end;
   font-weight: 900;
+}
+
+/* Call to Action styling */
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  color: #e5e7eb;
+}
+
+.call-to-action .container {
+  background-color: #3882f6;
+  padding: 30px 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.call-to-action .text p:first-child {
+  font-size: 18px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.call-to-action button {
+  border: 2px solid #f9faf8;
+  background-color: transparent;
+  color: inherit;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: 800;
 }
