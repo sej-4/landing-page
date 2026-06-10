@@ -118,13 +118,13 @@ h2 {
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
-  padding: 60px 0 50px;
+  padding: 60px 0;
 }
 
 .quote .container {
   display: flex;
   flex-direction: column;
-  width: 650px;
+  width: 670px;
   gap: 10px;
 }
 
@@ -132,7 +132,6 @@ h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
-  font-style: italic;
 }
 
 .author {
@@ -145,7 +144,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
+  padding: 60px 0;
   color: #e5e7eb;
 }
 
