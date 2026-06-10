@@ -11,7 +11,14 @@ body {
 /* Hero styling */
 .hero {
   background-color: #1f2937;
-  padding: 10px 10% 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 100px;
+}
+
+.hero .container {
+  width: 850px;
 }
 
 .header {
@@ -47,7 +54,7 @@ a {
   gap: 30px;
 }
 
-.hero .container {
+.hero .text {
   flex: 1;
 }
 
